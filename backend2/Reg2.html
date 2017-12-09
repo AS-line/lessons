@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<meta charset="utf-8">
+</head>
+<body bgcolor="#696969">
+	<form action="/cgi-bin/Albert.py">
+		<h1>REGISTRATION</h1>
+
+		<input type="text" name="username" placeholder="First name"">
+		<input type="text" name="usersername" placeholder="Second name""><br><br><br>
+
+		<label>Genter:</label><br>
+		<input type="radio" name="gender"><label>M</label><br>
+		<input type="radio" name="gender"><label>W</label><br><br><br>
+
+		<select name="selectlanguage">:
+			<option>Choice</option>
+			<option>Python</option>
+			<option>C</option>
+			<option>C++</option>
+			<option>C#</option>
+			<option>Java</option>
+			<option>JS</option>
+			<option>Perl</option>
+			<option>PHP</option>
+			<option>Ruby</option>
+		</select><br><br>
+
+		<input type="checkbox" name="boxname" value="getn"><label>Get notifications</label><br>
+		<input type="checkbox" name="boxname" value="synch"><label>Synchronization</label><br>
+		<input type="checkbox" name="boxname" value="news"><label>Offer news</label>
+		<br><br><br>
+
+		<label>Profile:</label><br><br>
+		<input type="text" name="login" placeholder="@Login"><br>
+		<input type="text" name="email" placeholder="Email@email.com"><br>
+		<input type="password" name="newusername" placeholder="Password"><br><br>
+
+		<input type="submit" value="Create">
+	</form>
+</body>
+</html>
